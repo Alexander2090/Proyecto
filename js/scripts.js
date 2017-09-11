@@ -87,10 +87,4 @@ function cargarData(){
 ready(cargarData);
 
 
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    touch: true,
-    pauseOnAction: false,
-    pauseOnHover: false,
-  });
-});
+
