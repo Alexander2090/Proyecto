@@ -1,5 +1,4 @@
-$(document).ready(main);
- 
+
 var contador = 1;
  
 function main () {
@@ -22,3 +21,5 @@ function main () {
 		$(this).children('.children').slideToggle();
 	});
 }
+
+$(document).ready(main);
